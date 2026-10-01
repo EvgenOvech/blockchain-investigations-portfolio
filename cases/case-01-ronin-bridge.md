@@ -20,6 +20,13 @@ Funds were typically forwarded within a short period after receipt, with observe
 
 The observed behavior is consistent with the subject address functioning as a **pass-through or intermediary wallet** during the analyzed period.
 
+Additional checks identified:
+
+- **0 Internal Transactions**
+- **no matching ERC-20 Token Transfers**
+- **no ERC-721 transfers returned by the Etherscan API**
+- **no ERC-1155 transfers returned by the Etherscan API**
+
 This assessment concerns observable blockchain behavior only and does not independently establish the identity, intent, or ownership of the persons controlling the addresses.
 
 ---
@@ -30,17 +37,25 @@ Analyze the movement of ETH through a publicly labeled Ethereum address and dete
 
 ---
 
-## Scope and Data Source
+## Scope and Data Sources
 
 The analysis is based on publicly available Ethereum blockchain information viewed and exported through Etherscan.
 
-The dataset contains the complete **Normal Transactions** export displayed by Etherscan for the subject address:
+The following datasets and views were reviewed for the subject address:
+
+- Etherscan Normal Transactions export
+- Etherscan Internal Transactions view
+- Etherscan ERC-20 Token Transfers view
+- Etherscan API — ERC-721 transfers
+- Etherscan API — ERC-1155 transfers
+
+The primary Normal Transactions dataset contains:
 
 **47 transactions**
 
-This case study does not assume that the Normal Transactions dataset represents every possible form of blockchain activity associated with the address.
+The analysis does not assume that these Etherscan datasets represent every possible form of blockchain or off-chain activity associated with the address.
 
-Internal transactions, token transfers, interactions with smart contracts, activity on other blockchains, and off-chain information may require separate analysis.
+Activity on other blockchains, related-address activity, exchange records, and non-public information may require separate analysis.
 
 ---
 
@@ -184,7 +199,7 @@ The examined transaction can be represented as:
 
 ↓
 
-97 seconds
+**97 seconds**
 
 ↓
 
@@ -275,7 +290,7 @@ with **11 occurrences**.
 
 ---
 
-## Timing Analysis of the Observed Transaction Sequence
+## Timing Analysis
 
 The first non-zero incoming transfer in the analyzed sequence occurred at:
 
@@ -373,6 +388,72 @@ No further conclusion is drawn from this transaction in the present analysis.
 
 ---
 
+## Internal Transactions Check
+
+A separate review of the Etherscan Internal Transactions dataset was conducted for the subject address.
+
+Etherscan returned:
+
+**0 internal transactions**
+
+No additional ETH value movements were identified in Etherscan's Internal Transactions dataset for the subject address.
+
+This increases confidence that the ETH movements identified in the Normal Transactions dataset capture the relevant visible ETH transfers for the analyzed address, while remaining subject to the limitations of the data source.
+
+---
+
+## ERC-20 Token Transfer Check
+
+The Etherscan **Token Transfers (ERC-20)** view was reviewed for the subject address.
+
+Etherscan displayed:
+
+**There are no matching entries**
+
+No ERC-20 token transfer events were identified in the reviewed Etherscan view for the subject address.
+
+This finding does not establish that the address could never have interacted with token-related systems in some other context; it records only what was returned by the reviewed Etherscan dataset.
+
+---
+
+## ERC-721 NFT Transfer Check
+
+The Etherscan API was queried for ERC-721 transfers associated with the subject address.
+
+The API returned:
+
+`{"status":"0","message":"No transactions found","result":[]}`
+
+No ERC-721 transfer records were returned for the subject address.
+
+---
+
+## ERC-1155 NFT Transfer Check
+
+The Etherscan API was queried for ERC-1155 transfers associated with the subject address.
+
+The API returned:
+
+`{"status":"0","message":"No transactions found","result":[]}`
+
+No ERC-1155 transfer records were returned for the subject address.
+
+---
+
+## Asset Activity Summary
+
+The reviewed Etherscan datasets produced the following results:
+
+- Normal Transactions: **47**
+- Internal Transactions: **0**
+- ERC-20 Token Transfers: **no matching entries**
+- ERC-721 Transfers: **no transactions found**
+- ERC-1155 Transfers: **no transactions found**
+
+Within the reviewed data, the address activity was therefore dominated by direct ETH transfers rather than token or NFT transfers.
+
+---
+
 ## Data Quality Note
 
 The Etherscan CSV export rounds some ETH values.
@@ -391,16 +472,19 @@ Therefore, exact comparisons between transferred amounts and transaction fees sh
 
 This analysis is based exclusively on publicly available blockchain information and Etherscan-provided attribution.
 
-The analysis reviewed the Etherscan **Normal Transactions** dataset for the subject address.
+The analysis reviewed:
 
-It does not yet include a systematic review of:
+- the complete Etherscan **Normal Transactions** export
+- the Etherscan **Internal Transactions** dataset
+- the Etherscan **ERC-20 Token Transfers** view
+- ERC-721 transfers through the Etherscan API
+- ERC-1155 transfers through the Etherscan API
 
-- Internal Transactions
-- ERC-20 Token Transfers
-- ERC-721 or ERC-1155 activity
-- smart contract interactions outside the analyzed dataset
-- activity by related addresses
+The present analysis does not include:
+
+- systematic analysis of other addresses potentially controlled by the same entity
 - activity on other blockchains
+- cross-chain tracing
 - exchange account records
 - KYC information
 - IP information
@@ -415,7 +499,7 @@ Once assets enter a high-volume exchange-controlled address, transaction-level b
 
 ## Conclusion
 
-The analyzed Normal Transactions dataset reveals a repeated and highly structured movement of ETH through the subject address.
+The reviewed Ethereum activity reveals a repeated and highly structured movement of ETH through the subject address.
 
 Twenty-three non-zero incoming transfers originated from one source address and were followed by twenty-three outgoing transfers to one destination address.
 
@@ -423,9 +507,18 @@ Approximately **1,219.98 ETH** entered the subject address during the observed s
 
 The funds were generally forwarded rapidly, with a median observed holding period of **79 seconds**.
 
-Taken together, these observable characteristics are consistent with the subject address operating as a **pass-through or intermediary wallet** during the analyzed period.
+Additional Etherscan checks identified:
 
-Further analysis should examine additional transaction types and surrounding addresses before broader conclusions are drawn.
+- **0 Internal Transactions**
+- **no matching ERC-20 transfers**
+- **no ERC-721 transfers returned by the API**
+- **no ERC-1155 transfers returned by the API**
+
+Within the reviewed datasets, the address therefore displays a narrow and highly repetitive pattern centered on direct ETH transfers.
+
+Taken together, the observable characteristics are consistent with the subject address operating as a **pass-through or intermediary wallet** during the analyzed period.
+
+Further investigation would require analysis of surrounding addresses, exchange-side information, cross-chain activity, and other external sources before broader attribution conclusions could be drawn.
 
 ---
 
@@ -434,6 +527,12 @@ Further analysis should examine additional transaction types and surrounding add
 This case study demonstrates practical use of:
 
 - Ethereum blockchain exploration
+- normal transaction analysis
+- internal transaction verification
+- ERC-20 activity review
+- ERC-721 activity verification
+- ERC-1155 activity verification
+- Etherscan API usage
 - transaction tracing
 - wallet activity analysis
 - counterparty analysis
