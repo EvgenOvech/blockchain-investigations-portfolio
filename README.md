@@ -23,8 +23,9 @@ Since 2026, I have been developing practical skills in blockchain analytics and 
 
 This portfolio will contain practical training cases based on publicly available blockchain data.
 
-### Case 01 — Ethereum Transaction Investigation
-Coming soon.
+### [Case 01 — Ethereum Transaction Investigation](cases/case-01-ronin-bridge.md)
+
+Analysis of a publicly labeled Ethereum address associated with the Ronin Bridge exploit, including transaction flow, timing, amount comparison, and preliminary assessment.
 
 ### Case 02 — Wallet Activity & Counterparty Analysis
 Coming soon.
