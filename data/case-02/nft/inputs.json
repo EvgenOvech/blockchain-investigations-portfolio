@@ -1,0 +1,52 @@
+{
+  "responses": [
+    {
+      "file": "subject-erc1155.json",
+      "address": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+      "reported_standard": "ERC-1155",
+      "origin_attachment": "e68a35ca-a4a8-4225-9d3a-ababa962666b"
+    },
+    {
+      "file": "linked-erc1155.json",
+      "address": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+      "reported_standard": "ERC-1155",
+      "origin_attachment": "98252e38-3999-4307-86b0-3c0ed6f1b74b"
+    },
+    {
+      "file": "primary-erc1155.json",
+      "address": "0x649614d3f7a7d68b3cf3c00264a07eeae4326fdc",
+      "reported_standard": "ERC-1155",
+      "origin_attachment": "ab38b758-0a8f-4f7b-b342-be4b5a34e9dd"
+    },
+    {
+      "file": "secondary-erc1155.json",
+      "address": "0xab96e9ae52351f27ff9ace45ac2cb7083044eb69",
+      "reported_standard": "ERC-1155",
+      "origin_attachment": "c746728b-c4e8-4d6c-9821-ec8fefe7231a"
+    },
+    {
+      "file": "secondary-erc1155-copy-2.json",
+      "address": "0xab96e9ae52351f27ff9ace45ac2cb7083044eb69",
+      "reported_standard": "ERC-1155",
+      "origin_attachment": "d51ce8ba-a8d2-4a5f-bda3-ba2307caf3d3"
+    },
+    {
+      "file": "secondary-erc1155-copy-3.json",
+      "address": "0xab96e9ae52351f27ff9ace45ac2cb7083044eb69",
+      "reported_standard": "ERC-1155",
+      "origin_attachment": "4ad29c6a-be75-4443-9e3b-2d222ad139b7"
+    },
+    {
+      "file": "secondary-erc721.json",
+      "address": "0xab96e9ae52351f27ff9ace45ac2cb7083044eb69",
+      "reported_standard": "ERC-721",
+      "origin": "structured transcription of JSON pasted in user message"
+    }
+  ],
+  "user_reported_zero_erc721": [
+    "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+    "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+    "0x649614d3f7a7d68b3cf3c00264a07eeae4326fdc"
+  ],
+  "note": "Source responses preserved; classification and completeness require original API request and receipt checks."
+}

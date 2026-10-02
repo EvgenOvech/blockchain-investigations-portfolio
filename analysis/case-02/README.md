@@ -48,7 +48,7 @@ Two destination table exports each contain only 50 token rows; the selected full
 
 **User-reported checks:** the investigator states that unprovided Internal Transactions exports were checked and contained zero entries. For the two destinations this is recorded as a manual observation, with no CSV or independent zero-row export to hash. Missing files are not silently converted into machine-verified zeros.
 
-NFT checks and the cross-chain view remain original-review observations without supplied exports. CSVs do not prove current balances, labels, account ownership or completeness of explorer coverage.
+NFT checks now include [supplementary API response evidence](results/nft-checks.md). The cross-chain view remains an original-review observation without a supplied export. CSVs do not prove current balances, labels, account ownership or completeness of explorer coverage.
 
 ## Calculation rules and limitations
 
@@ -88,3 +88,11 @@ The computed JSON is the row-level evidence register for calculations. The table
 
 The [report's external references](../../cases/case-02-nomad-bridge-exploiter.md#external-references) preserve Coinbase's incident interpretation and public infrastructure documentation. The script tests transaction-pattern predicates; it does not verify those external narratives. "First active exploit", "single actor group", service labels and the interpretation of destinations remain separately attributed or assessed.
 
+
+## Supplementary NFT response checks
+
+Run `python scripts/analyze_case_02_nft.py` from the repository root to reproduce [NFT counts and duplicate detection](results/nft-checks.md). Raw attachment bytes are retained in [data/case-02/nft](../../data/case-02/nft); `inputs.json` identifies reported standards, target addresses and investigator-reported ERC-721 zero results. The pasted secondary ERC-721 JSON is stored as a structured transcription, not a byte-preserved attachment.
+
+The six ERC-1155 attachments contain four distinct result sets: 14 / 12 / 24 / 47 records. All are incoming. Two repeated secondary responses are excluded from aggregation. Source SHA-256 values and classification anomalies are recorded in `nft-checks.json`. Some NFT-style metadata uses the same contract addresses as the ERC-20 analysis; supplied endpoint descriptions and names are not sufficient to verify token standards. No request URLs, query parameters, complete pagination records or independently retrieved receipts were supplied.
+
+The latest investigator reports zero ERC-721 entries for the other three wallets; these zeros have no raw response files. The earlier five-event UI observation is not silently reconciled with these newer results. Incoming airdrop metadata cannot establish common control or a cash-out channel.
