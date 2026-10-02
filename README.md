@@ -38,6 +38,10 @@ The case distinguishes blockchain facts from external attribution and develops p
 
 **Focus:** mixer funding, internal transactions, ERC-20 tracing, wallet clustering, exploit infrastructure, DEX swaps, asset consolidation, destination analysis, attribution discipline, investigative leads.
 
+**Case 02 analytical materials:** [Evidence and methodology](analysis/case-02/README.md) · [Python analysis](scripts/analyze_case_02.py) · [Transaction-flow diagram](cases/case-02-nomad-bridge-exploiter.md#transaction-flow).
+
+The [supplied CSVs and input inventory](data/case-02/manifest.json) support [computed metrics](analysis/case-02/results/metrics.md) with source hashes and matching rows. The workflow distinguishes exact reproduction from display rounding and separates attempted helper calls from successful execution.
+
 ### Case 03 — OSINT & Blockchain Attribution
 
 Coming soon.
@@ -83,3 +87,4 @@ I am transitioning into professional Blockchain & Crypto Investigations and am o
 - AML / transaction monitoring
 - Fraud investigations
 - OSINT
+

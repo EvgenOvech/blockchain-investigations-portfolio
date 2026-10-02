@@ -1,0 +1,1185 @@
+{
+  "status": "calculated_from_supplied_exports",
+  "sources": {
+    "subject_normal": {
+      "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+      "sha256": "b73754221ac2439518011ba1d54dd35a211343d11d29fb7ad2c59dc0e890032a",
+      "rows": 111,
+      "unique_hashes": 111,
+      "successful_rows": 79,
+      "min_timestamp": 1655616958,
+      "max_timestamp": 1740860099
+    },
+    "subject_internal": {
+      "file": "export-internal-transactions-1790921617827.csv",
+      "sha256": "19a67b8ae520f036d9524930bb12e3fe6b78bc1ca434af5430e6dd3f703bf8a1",
+      "rows": 33,
+      "unique_hashes": 22,
+      "successful_rows": 33,
+      "min_timestamp": 1655616561,
+      "max_timestamp": 1661349324
+    },
+    "subject_erc20": {
+      "file": "export-tokentxns-1790921683439.csv",
+      "sha256": "fd61ae5bbdab7b2785d24a62f2fcd981ce1ce3c57d59ced93a140830f01130bd",
+      "rows": 43,
+      "unique_hashes": 29,
+      "successful_rows": 42,
+      "min_timestamp": 1656138101,
+      "max_timestamp": 1775932043
+    },
+    "linked_normal": {
+      "file": "export-0xB5C55f76F90cC528B2609109CA14D8D84593590E (2).csv",
+      "sha256": "53d23914c23ad3d1d15184412acebb642e4052d7f620ead5113acfe91dfb590b",
+      "rows": 101,
+      "unique_hashes": 101,
+      "successful_rows": 67,
+      "min_timestamp": 1655625567,
+      "max_timestamp": 1679643743
+    },
+    "linked_internal": {
+      "file": "export-internal-tx-0xB5C55f76F90cC528B2609109CA14D8D84593590E (3).csv",
+      "sha256": "2e61a783ff5c6b0fe99c5f879578da254fdd45873820554b763f5a1a26122179",
+      "rows": 6,
+      "unique_hashes": 6,
+      "successful_rows": 6,
+      "min_timestamp": 1655625355,
+      "max_timestamp": 1661350355
+    },
+    "linked_erc20": {
+      "file": "export-address-token-0xb5c55f76f90cc528b2609109ca14d8d84593590e.csv",
+      "sha256": "270ad962af6d29a4d568ed9efc070f851d24079e6e486a65ff0f8799943833b5",
+      "rows": 48,
+      "unique_hashes": 36,
+      "successful_rows": 48,
+      "min_timestamp": 1658396631,
+      "max_timestamp": 1705116731
+    },
+    "primary_normal": {
+      "file": "export-0x649614d3f7A7d68b3Cf3C00264a07eeae4326fdc.csv",
+      "sha256": "d301341b5a3f860e40fa6b883251a31875ad85c0a30f7a3c6561aab586118e9c",
+      "rows": 63,
+      "unique_hashes": 63,
+      "successful_rows": 63,
+      "min_timestamp": 1661349958,
+      "max_timestamp": 1778635583
+    },
+    "primary_erc20": {
+      "file": "export-address-token-0x649614d3f7a7d68b3cf3c00264a07eeae4326fdc.csv",
+      "sha256": "a9c2c50c4722f905c5e6b5574e2623173f764ca6a68e08d8a466fbd3c83ceb28",
+      "rows": 354,
+      "unique_hashes": 353,
+      "successful_rows": 354,
+      "min_timestamp": 1661349654,
+      "max_timestamp": 1790879279
+    },
+    "secondary_normal": {
+      "file": "export-0xAB96E9AE52351f27Ff9aCE45ac2cB7083044eb69 (1).csv",
+      "sha256": "f810d5f579cdc4ff4ae36a432b93e1c61376596befcb42b448c3a5504763a5d9",
+      "rows": 49,
+      "unique_hashes": 49,
+      "successful_rows": 49,
+      "min_timestamp": 1661350439,
+      "max_timestamp": 1778635763
+    },
+    "secondary_erc20": {
+      "file": "export-address-token-0xab96e9ae52351f27ff9ace45ac2cb7083044eb69.csv",
+      "sha256": "cfa1a548a5a753a4b10f77a883b53c5df6906bf343eba9e5e05a1377a267e389",
+      "rows": 263,
+      "unique_hashes": 262,
+      "successful_rows": 263,
+      "min_timestamp": 1661350591,
+      "max_timestamp": 1790879327
+    }
+  },
+  "metrics": {
+    "subject_normal_rows": {
+      "calculated": "111",
+      "original_report": "111",
+      "comparison": "match"
+    },
+    "subject_internal_rows": {
+      "calculated": "33",
+      "original_report": "33",
+      "comparison": "match"
+    },
+    "subject_erc20_rows": {
+      "calculated": "43",
+      "original_report": "43",
+      "comparison": "match"
+    },
+    "linked_normal_rows": {
+      "calculated": "101",
+      "original_report": "101",
+      "comparison": "match"
+    },
+    "linked_internal_rows": {
+      "calculated": "6",
+      "original_report": "6",
+      "comparison": "match"
+    },
+    "linked_erc20_rows": {
+      "calculated": "48",
+      "original_report": null,
+      "comparison": "not_compared"
+    },
+    "primary_normal_rows": {
+      "calculated": "63",
+      "original_report": null,
+      "comparison": "not_compared"
+    },
+    "primary_erc20_rows": {
+      "calculated": "354",
+      "original_report": null,
+      "comparison": "not_compared"
+    },
+    "secondary_normal_rows": {
+      "calculated": "49",
+      "original_report": null,
+      "comparison": "not_compared"
+    },
+    "secondary_erc20_rows": {
+      "calculated": "263",
+      "original_report": null,
+      "comparison": "not_compared"
+    },
+    "subject_helper_calls": {
+      "calculated": "7",
+      "original_report": "7",
+      "comparison": "match",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 7
+    },
+    "subject_helper_successful_calls": {
+      "calculated": "1",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 1
+    },
+    "linked_helper_calls": {
+      "calculated": "7",
+      "original_report": "7",
+      "comparison": "match",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 7
+    },
+    "linked_helper_successful_calls": {
+      "calculated": "0",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 0
+    },
+    "initial_pool_eth": {
+      "calculated": "10.57812",
+      "original_report": "10.57812",
+      "comparison": "match",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 7
+    },
+    "pre_exploit_link_eth": {
+      "calculated": "20",
+      "original_report": "20",
+      "comparison": "match",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 1
+    },
+    "helper_to_linked_eth": {
+      "calculated": "1084.12",
+      "original_report": "1084.116533510535209745",
+      "comparison": "compatible_with_display_rounding",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "0.005",
+      "matched_rows": 1
+    },
+    "bridge_weth": {
+      "calculated": "10200",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "1.0",
+      "matched_rows": 2,
+      "original_report_rounded": "10200"
+    },
+    "bridge_usdc": {
+      "calculated": "2062150.84",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "0.030",
+      "matched_rows": 6,
+      "original_report_rounded": "2062150.84"
+    },
+    "bridge_dai": {
+      "calculated": "150040.00",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "0.005",
+      "matched_rows": 1,
+      "original_report_rounded": "150040"
+    },
+    "bridge_frax": {
+      "calculated": "300080.00",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "0.010",
+      "matched_rows": 2,
+      "original_report_rounded": "300080"
+    },
+    "bridge_fxs": {
+      "calculated": "12502.96",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "0.005",
+      "matched_rows": 1,
+      "original_report_rounded": "12502.96"
+    },
+    "bridge_cqt": {
+      "calculated": "37514864.72",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "0.030",
+      "matched_rows": 6,
+      "original_report_rounded": "37514864.72"
+    },
+    "curve_usdc_sent": {
+      "calculated": "6403276.69",
+      "original_report": "6403276.691627",
+      "comparison": "compatible_with_display_rounding",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "0.005",
+      "matched_rows": 1
+    },
+    "curve_dai_received": {
+      "calculated": "6401967.15",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "0.005",
+      "matched_rows": 1
+    },
+    "curve_frax_sent": {
+      "calculated": "450120.00",
+      "original_report": "450120",
+      "comparison": "compatible_with_display_rounding",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "0.005",
+      "matched_rows": 1
+    },
+    "frax_dai_received": {
+      "calculated": "449809.38",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "0.005",
+      "matched_rows": 1
+    },
+    "destination_dai": {
+      "calculated": "7123204.23",
+      "original_report": "7123204.228108725",
+      "comparison": "compatible_with_display_rounding",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "0.005",
+      "matched_rows": 1
+    },
+    "subject_unwrap_eth": {
+      "calculated": "10203.4875",
+      "original_report": "10203.4875",
+      "comparison": "match",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 1
+    },
+    "destination_eth": {
+      "calculated": "23073.4",
+      "original_report": "23073.4",
+      "comparison": "match",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 1
+    },
+    "linked_destination_eth": {
+      "calculated": "1110.9",
+      "original_report": "1110.9",
+      "comparison": "match",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 1
+    },
+    "linked_unwrap_eth": {
+      "calculated": "300",
+      "original_report": "300",
+      "comparison": "compatible_with_display_rounding",
+      "amounts_are_display_rounded": true,
+      "rounding_tolerance": "0.5",
+      "matched_rows": 1
+    },
+    "secondary_dai": {
+      "calculated": "3450068.36980218776548975",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 1
+    },
+    "secondary_wbtc": {
+      "calculated": "103",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 1
+    },
+    "primary_dai_full_precision": {
+      "calculated": "7123204.228108725107069601",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 1
+    },
+    "primary_initiated_normal": {
+      "calculated": "0",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 0
+    },
+    "primary_outbound_erc20": {
+      "calculated": "1",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 1
+    },
+    "secondary_initiated_normal": {
+      "calculated": "0",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 0
+    },
+    "secondary_outbound_erc20": {
+      "calculated": "1",
+      "original_report": null,
+      "comparison": "not_compared",
+      "amounts_are_display_rounded": false,
+      "rounding_tolerance": "0",
+      "matched_rows": 1
+    },
+    "destination_transfer_gap_seconds": {
+      "calculated": "481",
+      "original_report": "481",
+      "comparison": "match"
+    }
+  },
+  "matching_rows": {
+    "subject_helper_calls": [
+      {
+        "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+        "csv_line": 15,
+        "hash": "0x9d446d98125614c02438e65fa1dbd15e1478fe3b2490a6b843265332c54ddfa0",
+        "utc": "2022-07-06T00:41:25+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+        "csv_line": 16,
+        "hash": "0x776d2d6d7d09a514d8ad7c4683e43956ea61bed2a5b82c5c425645853478a89b",
+        "utc": "2022-07-06T02:58:39+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(0)",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+        "csv_line": 17,
+        "hash": "0xea9c4c8eb51e61ba0994f108164b591424671fa3badaa3a1cebcbed264a7b651",
+        "utc": "2022-07-06T03:16:15+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(0)",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+        "csv_line": 19,
+        "hash": "0x49431520a8d2cafc49750a786f33363701760207e771466e687da886f7789b4d",
+        "utc": "2022-07-12T17:48:33+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "9.32E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(0)",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+        "csv_line": 21,
+        "hash": "0xae0656cfbace4c923e412d83df43e32691feeb13693d4164c6d24e0e4d7db49e",
+        "utc": "2022-07-16T16:15:25+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(0)",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+        "csv_line": 22,
+        "hash": "0xdaec90eef1cf2c1c755aa521d2950c61357b7295d6f80fd2992913e49b702e39",
+        "utc": "2022-07-20T11:16:30+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(0)",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+        "csv_line": 24,
+        "hash": "0xe9f0191f1fa73c7026be89a3bb19500bebe6806fe23c14e88186b0422703e413",
+        "utc": "2022-07-28T20:43:26+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(0)",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "subject_helper_successful_calls": [
+      {
+        "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+        "csv_line": 15,
+        "hash": "0x9d446d98125614c02438e65fa1dbd15e1478fe3b2490a6b843265332c54ddfa0",
+        "utc": "2022-07-06T00:41:25+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "linked_helper_calls": [
+      {
+        "file": "export-0xB5C55f76F90cC528B2609109CA14D8D84593590E (2).csv",
+        "csv_line": 12,
+        "hash": "0x8d2c7f19036267465a90584eabba2d51afbfcfdc278025b7797d5d7066a2bce1",
+        "utc": "2022-07-05T14:30:50+00:00",
+        "from": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(0)",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-0xB5C55f76F90cC528B2609109CA14D8D84593590E (2).csv",
+        "csv_line": 13,
+        "hash": "0xb55a84dff464d193f3a64e49559c959c86cac020522a51d9d7da6534ba0a4315",
+        "utc": "2022-07-05T19:30:12+00:00",
+        "from": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(0)",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-0xB5C55f76F90cC528B2609109CA14D8D84593590E (2).csv",
+        "csv_line": 14,
+        "hash": "0x00a0288d39efdf79108dc7936972dad5771c4653ff93ea44e8710f55991ae528",
+        "utc": "2022-07-06T02:58:39+00:00",
+        "from": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "9.32E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(0)",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-0xB5C55f76F90cC528B2609109CA14D8D84593590E (2).csv",
+        "csv_line": 15,
+        "hash": "0x436778c4e2658c3e64768d04477d883bec45f1df806bf74824f24218f30cbb32",
+        "utc": "2022-07-06T03:16:15+00:00",
+        "from": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(0)",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-0xB5C55f76F90cC528B2609109CA14D8D84593590E (2).csv",
+        "csv_line": 19,
+        "hash": "0x1a49ce0cb4cd578ce10af771b42beb54d59ae465457ac9cce18f50fb7d57bd3e",
+        "utc": "2022-07-12T17:48:33+00:00",
+        "from": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(0)",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-0xB5C55f76F90cC528B2609109CA14D8D84593590E (2).csv",
+        "csv_line": 21,
+        "hash": "0xa8b0aa42bfa2c142e6b4fb488e1d50c376ffd82b15329a67fdcba202b5f768e0",
+        "utc": "2022-07-16T16:15:25+00:00",
+        "from": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(1)",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-0xB5C55f76F90cC528B2609109CA14D8D84593590E (2).csv",
+        "csv_line": 25,
+        "hash": "0xaa01f9eae9bd7c5e04f490de1635dbf05c2b43b7d07d28bc2f6a4a0f809b0cdb",
+        "utc": "2022-07-22T03:51:08+00:00",
+        "from": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "to": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "amount": "4.66E-15",
+        "contract": "",
+        "token_label": "",
+        "status": "Error(0)",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "linked_helper_successful_calls": [],
+    "initial_pool_eth": [
+      {
+        "file": "export-internal-transactions-1790921617827.csv",
+        "csv_line": 28,
+        "hash": "0x491242ac78d2b67f96c6dbc0fae2d09bd1ec495f63ac170233705019df0f7d92",
+        "utc": "2022-06-19T06:06:52+00:00",
+        "from": "0x910cbd523d972eb0a6f4cae4618ad62622b39dbf",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "10",
+        "contract": "",
+        "token_label": "",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-internal-transactions-1790921617827.csv",
+        "csv_line": 29,
+        "hash": "0x160483036aadc09106021cb340bf2446826bf78cc8d5ff1727fab5a4e0b244ff",
+        "utc": "2022-06-19T05:50:54+00:00",
+        "from": "0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "0.1",
+        "contract": "",
+        "token_label": "",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-internal-transactions-1790921617827.csv",
+        "csv_line": 30,
+        "hash": "0x26eb717dd81c88fb65818e9036b9c7c23225a0f3bdabeeb1e7ca99d86434eb94",
+        "utc": "2022-06-19T05:48:22+00:00",
+        "from": "0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "0.1",
+        "contract": "",
+        "token_label": "",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-internal-transactions-1790921617827.csv",
+        "csv_line": 31,
+        "hash": "0xe1b08633f9e05c5eaca23a48cb70c851430ef2e994aeaa991caeafb9ff142c5c",
+        "utc": "2022-06-19T05:46:04+00:00",
+        "from": "0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "0.1",
+        "contract": "",
+        "token_label": "",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-internal-transactions-1790921617827.csv",
+        "csv_line": 32,
+        "hash": "0xe20c28e5c095c198d7ef4b3a7405148adb8f0a3bae214499c36d1c22a8644730",
+        "utc": "2022-06-19T05:42:09+00:00",
+        "from": "0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "0.1",
+        "contract": "",
+        "token_label": "",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-internal-transactions-1790921617827.csv",
+        "csv_line": 33,
+        "hash": "0x7829d0c74abe327a89feb6e771266c44df7e272826bab7fe4776c2166825d24c",
+        "utc": "2022-06-19T05:35:58+00:00",
+        "from": "0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "0.1",
+        "contract": "",
+        "token_label": "",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-internal-transactions-1790921617827.csv",
+        "csv_line": 34,
+        "hash": "0xcf2a75b0332229c4d40727e644a73c405031a8ef0c42886b17619229633690f0",
+        "utc": "2022-06-19T05:29:21+00:00",
+        "from": "0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "0.07812",
+        "contract": "",
+        "token_label": "",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "pre_exploit_link_eth": [
+      {
+        "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+        "csv_line": 18,
+        "hash": "0x497e6ad285bd85551a1b2dbeb4e9504bb10ff11f8e0325166e7e5241ee69b82a",
+        "utc": "2022-07-11T06:05:34+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "amount": "20",
+        "contract": "",
+        "token_label": "",
+        "status": "",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "helper_to_linked_eth": [
+      {
+        "file": "export-internal-tx-0xB5C55f76F90cC528B2609109CA14D8D84593590E (3).csv",
+        "csv_line": 3,
+        "hash": "0x61497a1a8a8659a06358e130ea590e1eed8956edbd99dbb2048cfb46850a8f17",
+        "utc": "2022-08-01T21:32:31+00:00",
+        "from": "0xf57113d8f6ff35747737f026fe0b37d4d7f42777",
+        "to": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "amount": "1084.12",
+        "contract": "",
+        "token_label": "",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "bridge_weth": [
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 39,
+        "hash": "0x56b4551dd7e8f475a2c70c7a7e53a5e9a1d5e09f33dac0d89b7816748a8caaf6",
+        "utc": "2022-08-01T22:32:42+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "10000",
+        "contract": "",
+        "token_label": "Wrapped Ether(WETH)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 40,
+        "hash": "0xe7fd692fcfae783149b695fc908c865669cc2be808ab47faabfe672eb014158c",
+        "utc": "2022-08-01T22:24:11+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "200",
+        "contract": "",
+        "token_label": "Wrapped Ether(WETH)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "bridge_usdc": [
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 33,
+        "hash": "0x2c9f65f8375d76fc8477f192df4f4e39cf5ac3e9219467d7294b31dcedf8f431",
+        "utc": "2022-08-01T22:51:54+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "202440.73",
+        "contract": "",
+        "token_label": "USDC(USDC)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 34,
+        "hash": "0x13eef53f72c9924755a0842edf50a0787bef5e9f1dfd0220c31a24d626141cdb",
+        "utc": "2022-08-01T22:51:12+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "202440.73",
+        "contract": "",
+        "token_label": "USDC(USDC)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 35,
+        "hash": "0x568ab1cff56a1d57a420cf37325ea0888de9234fc4d7ee9591af55340a1a5411",
+        "utc": "2022-08-01T22:48:59+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "202440.73",
+        "contract": "",
+        "token_label": "USDC(USDC)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 36,
+        "hash": "0x1e8c51997083d93ef53bfeb844eb6baef7ffe297275f5fa61496c931a39e2cfe",
+        "utc": "2022-08-01T22:45:57+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "202440.73",
+        "contract": "",
+        "token_label": "USDC(USDC)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 37,
+        "hash": "0x7b901108136067d142c6d4431f992c57fd51341eaac58fdf90de9400de573843",
+        "utc": "2022-08-01T22:43:19+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "1049947.19",
+        "contract": "",
+        "token_label": "USDC(USDC)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 38,
+        "hash": "0x1e215551c3107f3eef143b2db15e3f00ec187f067b5aba01741f915be94d0357",
+        "utc": "2022-08-01T22:38:23+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "202440.73",
+        "contract": "",
+        "token_label": "USDC(USDC)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "bridge_dai": [
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 20,
+        "hash": "0x748d0c65259a7196667f9696b927389788a250869007cee118fb4f115929f880",
+        "utc": "2022-08-01T23:06:56+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "150040.00",
+        "contract": "",
+        "token_label": "Dai Stablecoin(DAI)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "bridge_frax": [
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 21,
+        "hash": "0x49eb90f1b2aec991b4224e4544c1509b82cf304cdc5500465aa6c59abf3dda89",
+        "utc": "2022-08-01T23:04:23+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "150040.00",
+        "contract": "",
+        "token_label": "Frax(FRAX)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 32,
+        "hash": "0x5562487c9c2425d92f12e672d3a0841500bfd2ddfa5ac501626d4ec96886c24a",
+        "utc": "2022-08-01T22:52:38+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "150040.00",
+        "contract": "",
+        "token_label": "Frax(FRAX)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "bridge_fxs": [
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 9,
+        "hash": "0x37cc766d5bc73a95069d488e21902efe459600b6e714b75a8204601d9573e005",
+        "utc": "2022-08-01T23:25:20+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "12502.96",
+        "contract": "",
+        "token_label": "Frax Share(FXS)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "bridge_cqt": [
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 10,
+        "hash": "0xb4c100e5033448108c6619f124804f23041b9f42801fa4a0b643c3bcbdc905cc",
+        "utc": "2022-08-01T23:21:27+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "15003999.97",
+        "contract": "",
+        "token_label": "Covalent Query Token(CQT)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 11,
+        "hash": "0x5ef54a9c14b934d7ef90739d80a8832e24cd0c4dd8a5e80cdad402bd001d635a",
+        "utc": "2022-08-01T23:20:52+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "20701778.93",
+        "contract": "",
+        "token_label": "Covalent Query Token(CQT)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 12,
+        "hash": "0x6d6cb2aab2f194eebe6425fe76f1ffee73a30b7d695bb5cc15b67dcf36a3fffb",
+        "utc": "2022-08-01T23:20:24+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "1358965.82",
+        "contract": "",
+        "token_label": "Covalent Query Token(CQT)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 13,
+        "hash": "0x98c897c13d6db69128c8bcc17f0a390014904a5e8cf838dae65c53f0eba86257",
+        "utc": "2022-08-01T23:18:50+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "150040.00",
+        "contract": "",
+        "token_label": "Covalent Query Token(CQT)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 17,
+        "hash": "0x73360a8fa7a4882ad5f4f836eb61a362330702827ae117344e796ff380138971",
+        "utc": "2022-08-01T23:11:02+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "150040.00",
+        "contract": "",
+        "token_label": "Covalent Query Token(CQT)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      },
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 19,
+        "hash": "0xb75d5032cd38774f4b0de4d43a89ac014d67c9ea12abc2e627c003a911eff4a3",
+        "utc": "2022-08-01T23:07:10+00:00",
+        "from": "0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "150040.00",
+        "contract": "",
+        "token_label": "Covalent Query Token(CQT)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "curve_usdc_sent": [
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 8,
+        "hash": "0xaf05b7e78a414a44b2b96c8ceee3ca718df2582bd6193b31f21cb4dbbd9fcbb1",
+        "utc": "2022-08-01T23:33:03+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+        "amount": "6403276.69",
+        "contract": "",
+        "token_label": "USDC(USDC)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "curve_dai_received": [
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 7,
+        "hash": "0xaf05b7e78a414a44b2b96c8ceee3ca718df2582bd6193b31f21cb4dbbd9fcbb1",
+        "utc": "2022-08-01T23:33:03+00:00",
+        "from": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "6401967.15",
+        "contract": "",
+        "token_label": "Dai Stablecoin(DAI)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "curve_frax_sent": [
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 6,
+        "hash": "0x7212506377a4cbcda9145216ba49e227135ed7655e24d8ce5a6931ceab9e2350",
+        "utc": "2022-08-01T23:42:02+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0xd632f22692fac7611d2aa1c0d552930d43caed3b",
+        "amount": "450120.00",
+        "contract": "",
+        "token_label": "Frax(FRAX)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "frax_dai_received": [
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 5,
+        "hash": "0x7212506377a4cbcda9145216ba49e227135ed7655e24d8ce5a6931ceab9e2350",
+        "utc": "2022-08-01T23:42:02+00:00",
+        "from": "0xd632f22692fac7611d2aa1c0d552930d43caed3b",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "449809.38",
+        "contract": "",
+        "token_label": "Dai Stablecoin(DAI)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "destination_dai": [
+      {
+        "file": "export-tokentxns-1790921683439.csv",
+        "csv_line": 4,
+        "hash": "0x976b2c819e5ac3f64623268146df04f5d577f2f6ea30810ba2ead7d325f993f4",
+        "utc": "2022-08-24T14:00:54+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0x649614d3f7a7d68b3cf3c00264a07eeae4326fdc",
+        "amount": "7123204.23",
+        "contract": "",
+        "token_label": "Dai Stablecoin(DAI)",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "subject_unwrap_eth": [
+      {
+        "file": "export-internal-transactions-1790921617827.csv",
+        "csv_line": 2,
+        "hash": "0x92c5b78c4e480e04cbbe186c8294bb5a1927cbcad1ff346a86bccdf34c71fe29",
+        "utc": "2022-08-24T13:55:24+00:00",
+        "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "to": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "amount": "10203.4875",
+        "contract": "",
+        "token_label": "",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "destination_eth": [
+      {
+        "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+        "csv_line": 107,
+        "hash": "0xfd243724371bea1221d1bd9d8e6755656ef697d594e97a46ca21ca3390ae7fe1",
+        "utc": "2022-08-24T14:05:58+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0x649614d3f7a7d68b3cf3c00264a07eeae4326fdc",
+        "amount": "23073.4",
+        "contract": "",
+        "token_label": "",
+        "status": "",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "linked_destination_eth": [
+      {
+        "file": "export-0xB5C55f76F90cC528B2609109CA14D8D84593590E (2).csv",
+        "csv_line": 97,
+        "hash": "0xc98e586f49bbedeebd9809d582fb3f8d2ac89df08f60326bde54b4ddd79a53e6",
+        "utc": "2022-08-24T14:13:59+00:00",
+        "from": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "to": "0xab96e9ae52351f27ff9ace45ac2cb7083044eb69",
+        "amount": "1110.9",
+        "contract": "",
+        "token_label": "",
+        "status": "",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "linked_unwrap_eth": [
+      {
+        "file": "export-internal-tx-0xB5C55f76F90cC528B2609109CA14D8D84593590E (3).csv",
+        "csv_line": 2,
+        "hash": "0xc522265e4b827b72e2daba5ac8711dac2216d826f057493fa7629ea7d6de4422",
+        "utc": "2022-08-24T14:12:35+00:00",
+        "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "to": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "amount": "300",
+        "contract": "",
+        "token_label": "",
+        "status": "Success",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "secondary_dai": [
+      {
+        "file": "export-address-token-0xb5c55f76f90cc528b2609109ca14d8d84593590e.csv",
+        "csv_line": 40,
+        "hash": "0x8a43d2aa015eb6bc24bdf541915f1e0d193c6ba1208c70d1d003efce399c9f4f",
+        "utc": "2022-08-24T14:16:31+00:00",
+        "from": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "to": "0xab96e9ae52351f27ff9ace45ac2cb7083044eb69",
+        "amount": "3450068.36980218776548975",
+        "contract": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "token_label": "",
+        "status": "event_present",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "secondary_wbtc": [
+      {
+        "file": "export-address-token-0xb5c55f76f90cc528b2609109ca14d8d84593590e.csv",
+        "csv_line": 41,
+        "hash": "0xffd3bc46060c2fc5b211bb191da3009aa25a4ab487e5d5498dbf3b35a8d4bd18",
+        "utc": "2022-08-24T14:18:21+00:00",
+        "from": "0xb5c55f76f90cc528b2609109ca14d8d84593590e",
+        "to": "0xab96e9ae52351f27ff9ace45ac2cb7083044eb69",
+        "amount": "103",
+        "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "token_label": "",
+        "status": "event_present",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "primary_dai_full_precision": [
+      {
+        "file": "export-address-token-0x649614d3f7a7d68b3cf3c00264a07eeae4326fdc.csv",
+        "csv_line": 2,
+        "hash": "0x976b2c819e5ac3f64623268146df04f5d577f2f6ea30810ba2ead7d325f993f4",
+        "utc": "2022-08-24T14:00:54+00:00",
+        "from": "0x56d8b635a7c88fd1104d23d632af40c1c3aac4e3",
+        "to": "0x649614d3f7a7d68b3cf3c00264a07eeae4326fdc",
+        "amount": "7123204.228108725107069601",
+        "contract": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "token_label": "",
+        "status": "event_present",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "primary_initiated_normal": [],
+    "primary_outbound_erc20": [
+      {
+        "file": "export-address-token-0x649614d3f7a7d68b3cf3c00264a07eeae4326fdc.csv",
+        "csv_line": 21,
+        "hash": "0x96b8165cc57f8783563bd831ca12f2e3c7e7081f6b6059239e0028545037c44f",
+        "utc": "2023-07-02T12:37:59+00:00",
+        "from": "0x649614d3f7a7d68b3cf3c00264a07eeae4326fdc",
+        "to": "0xc9831af129be6d20d87067e953c5a40785672685",
+        "amount": "361",
+        "contract": "0xfda2f7eb28aedc9403738739e0ada3dbf8a76616",
+        "token_label": "",
+        "status": "event_present",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ],
+    "secondary_initiated_normal": [],
+    "secondary_outbound_erc20": [
+      {
+        "file": "export-address-token-0xab96e9ae52351f27ff9ace45ac2cb7083044eb69.csv",
+        "csv_line": 31,
+        "hash": "0xd25660c7afef40b53357a5c4fad4d4ec2682b6b1095fec0951abcd8131cd32c0",
+        "utc": "2024-01-14T16:09:59+00:00",
+        "from": "0xab96e9ae52351f27ff9ace45ac2cb7083044eb69",
+        "to": "0xeac19bd6f6d3e231fd18371e02c195599a878a83",
+        "amount": "0",
+        "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "token_label": "",
+        "status": "event_present",
+        "timestamp_inherited_from_same_hash": false
+      }
+    ]
+  },
+  "limitations": [
+    "Export coverage is not proven complete by matching counts.",
+    "Internal rows are traces; token rows are events, not unique transactions.",
+    "No cross-dataset sum of ETH; gas is excluded.",
+    "Subject token identity relies on exact explorer display labels where contract fields are absent.",
+    "Table exports contain rounded amounts; display-compatible comparisons do not validate original full precision.",
+    "Error-marked rows are excluded conservatively; an internal-error flag may not mean the parent reverted.",
+    "Labels, identity, motives and current balances are not validated."
+  ],
+  "configuration_sha256": "7fe38e15b44accb19fd19980daace651ab33c9db14ceafaa12d75addad331876"
+}

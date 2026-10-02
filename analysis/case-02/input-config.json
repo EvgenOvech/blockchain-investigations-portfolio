@@ -1,0 +1,199 @@
+{
+  "datasets": {
+    "subject_normal": {
+      "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+      "columns": {
+        "hash": "Transaction Hash",
+        "from": "From",
+        "to": "To",
+        "timestamp": "UnixTimestamp",
+        "status": "Status",
+        "amount_in": "Value_IN(ETH)",
+        "amount_out": "Value_OUT(ETH)"
+      },
+      "success_values": [
+        ""
+      ],
+      "failure_values": [
+        "Error(0)",
+        "Error(1)"
+      ],
+      "event_status_implicit": false,
+      "rounded_amounts": false
+    },
+    "subject_internal": {
+      "file": "export-internal-transactions-1790921617827.csv",
+      "columns": {
+        "hash": "Parent Transaction Hash",
+        "from": "From",
+        "to": "To",
+        "utc": "DateTime (UTC)",
+        "status": "Status",
+        "amount": "Amount"
+      },
+      "success_values": [
+        "Success"
+      ],
+      "failure_values": [],
+      "event_status_implicit": false,
+      "rounded_amounts": false
+    },
+    "subject_erc20": {
+      "file": "export-tokentxns-1790921683439.csv",
+      "columns": {
+        "hash": "Transaction Hash",
+        "from": "From",
+        "to": "To",
+        "utc": "DateTime (UTC)",
+        "status": "Status",
+        "amount": "Amount",
+        "token_label": "Token"
+      },
+      "success_values": [
+        "Success"
+      ],
+      "failure_values": [
+        "Error in Internal Txn : execution reverted"
+      ],
+      "event_status_implicit": false,
+      "rounded_amounts": true
+    },
+    "linked_normal": {
+      "file": "export-0xB5C55f76F90cC528B2609109CA14D8D84593590E (2).csv",
+      "columns": {
+        "hash": "Transaction Hash",
+        "from": "From",
+        "to": "To",
+        "timestamp": "UnixTimestamp",
+        "status": "Status",
+        "amount_in": "Value_IN(ETH)",
+        "amount_out": "Value_OUT(ETH)"
+      },
+      "success_values": [
+        ""
+      ],
+      "failure_values": [
+        "Error(0)",
+        "Error(1)"
+      ],
+      "event_status_implicit": false,
+      "rounded_amounts": false
+    },
+    "linked_internal": {
+      "file": "export-internal-tx-0xB5C55f76F90cC528B2609109CA14D8D84593590E (3).csv",
+      "columns": {
+        "hash": "Parent Transaction Hash",
+        "from": "From",
+        "to": "To",
+        "utc": "DateTime (UTC)",
+        "status": "Status",
+        "amount": "Amount"
+      },
+      "success_values": [
+        "Success"
+      ],
+      "failure_values": [],
+      "event_status_implicit": false,
+      "rounded_amounts": true
+    },
+    "linked_erc20": {
+      "file": "export-address-token-0xb5c55f76f90cc528b2609109ca14d8d84593590e.csv",
+      "columns": {
+        "hash": "Transaction Hash",
+        "from": "From",
+        "to": "To",
+        "timestamp": "UnixTimestamp",
+        "amount": "TokenValue",
+        "contract": "ContractAddress"
+      },
+      "success_values": [
+        "event_present"
+      ],
+      "failure_values": [],
+      "event_status_implicit": true,
+      "rounded_amounts": false
+    },
+    "primary_normal": {
+      "file": "export-0x649614d3f7A7d68b3Cf3C00264a07eeae4326fdc.csv",
+      "columns": {
+        "hash": "Transaction Hash",
+        "from": "From",
+        "to": "To",
+        "timestamp": "UnixTimestamp",
+        "status": "Status",
+        "amount_in": "Value_IN(ETH)",
+        "amount_out": "Value_OUT(ETH)"
+      },
+      "success_values": [
+        ""
+      ],
+      "failure_values": [],
+      "event_status_implicit": false,
+      "rounded_amounts": false
+    },
+    "primary_erc20": {
+      "file": "export-address-token-0x649614d3f7a7d68b3cf3c00264a07eeae4326fdc.csv",
+      "columns": {
+        "hash": "Transaction Hash",
+        "from": "From",
+        "to": "To",
+        "timestamp": "UnixTimestamp",
+        "amount": "TokenValue",
+        "contract": "ContractAddress"
+      },
+      "success_values": [
+        "event_present"
+      ],
+      "failure_values": [],
+      "event_status_implicit": true,
+      "rounded_amounts": false
+    },
+    "secondary_normal": {
+      "file": "export-0xAB96E9AE52351f27Ff9aCE45ac2cB7083044eb69 (1).csv",
+      "columns": {
+        "hash": "Transaction Hash",
+        "from": "From",
+        "to": "To",
+        "timestamp": "UnixTimestamp",
+        "status": "Status",
+        "amount_in": "Value_IN(ETH)",
+        "amount_out": "Value_OUT(ETH)"
+      },
+      "success_values": [
+        ""
+      ],
+      "failure_values": [],
+      "event_status_implicit": false,
+      "rounded_amounts": false
+    },
+    "secondary_erc20": {
+      "file": "export-address-token-0xab96e9ae52351f27ff9ace45ac2cb7083044eb69.csv",
+      "columns": {
+        "hash": "Transaction Hash",
+        "from": "From",
+        "to": "To",
+        "timestamp": "UnixTimestamp",
+        "amount": "TokenValue",
+        "contract": "ContractAddress"
+      },
+      "success_values": [
+        "event_present"
+      ],
+      "failure_values": [],
+      "event_status_implicit": true,
+      "rounded_amounts": false
+    }
+  },
+  "token_labels": {
+    "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "Wrapped Ether(WETH)",
+    "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "USDC(USDC)",
+    "0x6b175474e89094c44da98b954eedeac495271d0f": "Dai Stablecoin(DAI)",
+    "0x853d955acef822db058eb8505911ed77f175b99e": "Frax(FRAX)",
+    "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0": "Frax Share(FXS)",
+    "0xd417144312dbf50465b1c641d016962017ef6240": "Covalent Query Token(CQT)"
+  },
+  "user_reported_zero_internal": [
+    "0x649614d3f7a7d68b3cf3c00264a07eeae4326fdc",
+    "0xab96e9ae52351f27ff9ace45ac2cb7083044eb69"
+  ]
+}

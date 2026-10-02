@@ -1,0 +1,44 @@
+# Case 02 computed metrics
+
+| Metric | Calculated | Original report | Comparison |
+| --- | ---: | ---: | --- |
+| subject_normal_rows | 111 | 111 | match |
+| subject_internal_rows | 33 | 33 | match |
+| subject_erc20_rows | 43 | 43 | match |
+| linked_normal_rows | 101 | 101 | match |
+| linked_internal_rows | 6 | 6 | match |
+| linked_erc20_rows | 48 | — | not_compared |
+| primary_normal_rows | 63 | — | not_compared |
+| primary_erc20_rows | 354 | — | not_compared |
+| secondary_normal_rows | 49 | — | not_compared |
+| secondary_erc20_rows | 263 | — | not_compared |
+| subject_helper_calls | 7 | 7 | match |
+| subject_helper_successful_calls | 1 | — | not_compared |
+| linked_helper_calls | 7 | 7 | match |
+| linked_helper_successful_calls | 0 | — | not_compared |
+| initial_pool_eth | 10.57812 | 10.57812 | match |
+| pre_exploit_link_eth | 20 | 20 | match |
+| helper_to_linked_eth | 1084.12 | 1084.116533510535209745 | compatible_with_display_rounding |
+| bridge_weth | 10200 | — | not_compared |
+| bridge_usdc | 2062150.84 | — | not_compared |
+| bridge_dai | 150040.00 | — | not_compared |
+| bridge_frax | 300080.00 | — | not_compared |
+| bridge_fxs | 12502.96 | — | not_compared |
+| bridge_cqt | 37514864.72 | — | not_compared |
+| curve_usdc_sent | 6403276.69 | 6403276.691627 | compatible_with_display_rounding |
+| curve_dai_received | 6401967.15 | — | not_compared |
+| curve_frax_sent | 450120.00 | 450120 | compatible_with_display_rounding |
+| frax_dai_received | 449809.38 | — | not_compared |
+| destination_dai | 7123204.23 | 7123204.228108725 | compatible_with_display_rounding |
+| subject_unwrap_eth | 10203.4875 | 10203.4875 | match |
+| destination_eth | 23073.4 | 23073.4 | match |
+| linked_destination_eth | 1110.9 | 1110.9 | match |
+| linked_unwrap_eth | 300 | 300 | compatible_with_display_rounding |
+| secondary_dai | 3450068.36980218776548975 | — | not_compared |
+| secondary_wbtc | 103 | — | not_compared |
+| primary_dai_full_precision | 7123204.228108725107069601 | — | not_compared |
+| primary_initiated_normal | 0 | — | not_compared |
+| primary_outbound_erc20 | 1 | — | not_compared |
+| secondary_initiated_normal | 0 | — | not_compared |
+| secondary_outbound_erc20 | 1 | — | not_compared |
+| destination_transfer_gap_seconds | 481 | 481 | match |

@@ -1,0 +1,109 @@
+{
+  "files": [
+    {
+      "file": "export-0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3.csv",
+      "sha256": "b73754221ac2439518011ba1d54dd35a211343d11d29fb7ad2c59dc0e890032a",
+      "rows": 111,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": true
+    },
+    {
+      "file": "export-internal-transactions-1790921617827.csv",
+      "sha256": "19a67b8ae520f036d9524930bb12e3fe6b78bc1ca434af5430e6dd3f703bf8a1",
+      "rows": 33,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": true
+    },
+    {
+      "file": "export-tokentxns-1790921683439.csv",
+      "sha256": "fd61ae5bbdab7b2785d24a62f2fcd981ce1ce3c57d59ced93a140830f01130bd",
+      "rows": 43,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": true
+    },
+    {
+      "file": "export-0xB5C55f76F90cC528B2609109CA14D8D84593590E (2).csv",
+      "sha256": "53d23914c23ad3d1d15184412acebb642e4052d7f620ead5113acfe91dfb590b",
+      "rows": 101,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": true
+    },
+    {
+      "file": "export-internal-tx-0xB5C55f76F90cC528B2609109CA14D8D84593590E (3).csv",
+      "sha256": "2e61a783ff5c6b0fe99c5f879578da254fdd45873820554b763f5a1a26122179",
+      "rows": 6,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": true
+    },
+    {
+      "file": "export-address-token-0xb5c55f76f90cc528b2609109ca14d8d84593590e.csv",
+      "sha256": "270ad962af6d29a4d568ed9efc070f851d24079e6e486a65ff0f8799943833b5",
+      "rows": 48,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": true
+    },
+    {
+      "file": "export-0x649614d3f7A7d68b3Cf3C00264a07eeae4326fdc.csv",
+      "sha256": "d301341b5a3f860e40fa6b883251a31875ad85c0a30f7a3c6561aab586118e9c",
+      "rows": 63,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": true
+    },
+    {
+      "file": "export-address-token-0x649614d3f7a7d68b3cf3c00264a07eeae4326fdc.csv",
+      "sha256": "a9c2c50c4722f905c5e6b5574e2623173f764ca6a68e08d8a466fbd3c83ceb28",
+      "rows": 354,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": true
+    },
+    {
+      "file": "export-0xAB96E9AE52351f27Ff9aCE45ac2cB7083044eb69 (1).csv",
+      "sha256": "f810d5f579cdc4ff4ae36a432b93e1c61376596befcb42b448c3a5504763a5d9",
+      "rows": 49,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": true
+    },
+    {
+      "file": "export-address-token-0xab96e9ae52351f27ff9ace45ac2cb7083044eb69.csv",
+      "sha256": "cfa1a548a5a753a4b10f77a883b53c5df6906bf343eba9e5e05a1377a267e389",
+      "rows": 263,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": true
+    },
+    {
+      "file": "export-0xAB96E9AE52351f27Ff9aCE45ac2cB7083044eb69.csv",
+      "sha256": "5ce0df3042ec212cb399c0de8007f2854a7fafb2bb269a9fcd80e3d297147bca",
+      "rows": 49,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": false
+    },
+    {
+      "file": "export-tokentxns-1790922887540.csv",
+      "sha256": "fec1da7ab89ead57b897011a5e7a96a1904adc054068139496640d1f16e0aafc",
+      "rows": 50,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": false
+    },
+    {
+      "file": "export-tokentxns-1790923095234.csv",
+      "sha256": "4f9b1e0f19bb64311a8e0207e07d28dc2cc2cb951f2bbb4a1e2f60ecc466309f",
+      "rows": 50,
+      "received_on": "2026-10-02",
+      "collection_time": "not independently recorded",
+      "selected_for_analysis": false
+    }
+  ],
+  "note": "Byte-preserved supplied exports. Alternatives are retained but never concatenated."
+}
