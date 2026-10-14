@@ -71,6 +71,20 @@ The reports distinguish between:
 
 A label is treated as an investigative lead, not as proof of real-world identity.
 
+## Reproducibility and Verification
+
+- **Case 02** includes the supplied historical CSVs, a SHA-256 evidence manifest, documented input selection, deterministic Python calculations, transaction-level evidence references, and integrity tests. GitHub Actions is configured to run the tests and detect differences between regenerated outputs and published results.
+- **Case 01** documents a manual review of Etherscan data, but the original normal-transaction CSV and a reproducible calculation script have **not yet been published** in this repository. Its reported totals and holding-time statistics should not be represented as independently reproducible from the repository alone.
+- Neither case establishes real-world wallet ownership, completeness of exchange/explorer coverage, or present-day balances. Service labels and incident attributions are treated as external claims pending independent corroboration.
+
+To run the available Case 02 checks locally:
+
+```sh
+python -m unittest discover -s tests -v
+python scripts/analyze_case_02.py --data-dir data/case-02/raw --config analysis/case-02/input-config.json --output-dir analysis/case-02/results
+python scripts/analyze_case_02_nft.py
+```
+
 ## Ethics
 
 All case studies in this repository are created for educational and professional development purposes using publicly available information.
