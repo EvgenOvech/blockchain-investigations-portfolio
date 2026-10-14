@@ -13,9 +13,9 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
       - name: Run unit and integrity tests
@@ -24,6 +24,6 @@ jobs:
         run: |
           python scripts/analyze_case_02.py --data-dir data/case-02/raw --config analysis/case-02/input-config.json --output-dir analysis/case-02/results
           python scripts/analyze_case_02_nft.py
-      - name: Assert published outputs are unchanged
+      - name: Verify published data and text (ignore line endings)
         run: |
-          git diff --exit-code -- analysis/case-02/results/metrics.json analysis/case-02/results/metrics.md analysis/case-02/results/nft-checks.json analysis/case-02/results/nft-checks.md
+          git diff --ignore-space-at-eol --exit-code -- analysis/case-02/results/metrics.json analysis/case-02/results/metrics.md analysis/case-02/results/nft-checks.json analysis/case-02/results/nft-checks.md
